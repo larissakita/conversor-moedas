@@ -10,30 +10,18 @@ Essas instruções permitirão que você obtenha uma cópia do projeto em opera�
 
 Para rodar este projeto, você precisa ter instalado:
 
-- Java 11 ou superior
+- Java 11 ou superior  
 - Acesso à internet para a API de taxas de câmbio funcionar
 
 ### 🔧 Instalação
 
 1. Clone o repositório:
-```
+
 git clone https://github.com/larissakita/conversor-moedas.git
-```
 
 2. Navegue até o diretório do projeto:
-```
-cd conversor-moedas
-```
 
 3. Compile o código Java:
-```
-javac HttpClient.java
-```
-
-4. Execute o programa:
-```
-java HttpClient
-```
 
 ## ⚙️ Executando os testes
 
@@ -41,13 +29,17 @@ Não há testes automatizados neste projeto. Você pode executar o programa e te
 
 ## 📦 Implantação
 
-Para usar o projeto em produção, você precisa garantir que a máquina tenha acesso à internet e que a API de taxas esteja acessível. O projeto depende da API ExchangeRate-API.
+Para usar o projeto em produção, você precisa garantir que a máquina tenha acesso à internet e que a API de taxas esteja acessível.  
+O projeto depende da API [ExchangeRate-API](https://www.exchangerate-api.com/).
 
 ## 🛠️ Construído com
 
-* Java 11
-* ExchangeRate-API - API para taxas de câmbio
-* Gson
-
+- Java 11  
+- ExchangeRate-API - API para taxas de câmbio  
+- Gson
 
 ---
+
+
+
+
